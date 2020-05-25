@@ -1,0 +1,19 @@
+{
+  "name": "ts_decorator",
+  "version": "1.0.0",
+  "description": "test decorator",
+  "author": "wjeek",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wjeek/ts_decorator.git"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "typescript": "^3.5.3"
+  },
+  "engines": {
+    "install-node": "8"
+  }
+}
