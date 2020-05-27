@@ -35,6 +35,10 @@ class CartService {
 // 商品组件类
 @Injectable // 类装饰器
 class WareComponent {
+
+  @method
+  public ctx: WareService;
+
   // 构造商品组件，依赖于商品服务和购物车服务
   constructor(private wareService: WareService, private cartService: CartService) {
   }
@@ -62,7 +66,7 @@ function method(target: any, propertyKey: string, descriptor: PropertyDescriptor
   console.log(target);
   console.log("prop " + propertyKey);
   console.log("desc " + JSON.stringify(descriptor) + "\n\n");
-};
+}
 
 // 依赖注入器类
 abstract class DependencyInjector {

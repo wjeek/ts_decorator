@@ -9,6 +9,6 @@
     "emitDecoratorMetadata": true
   },
   "include": [
-    "1.ts"
+    "test.ts"
   ]
 }

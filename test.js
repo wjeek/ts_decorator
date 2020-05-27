@@ -67,6 +67,10 @@ var __metadata = (this && this.__metadata) || function (k, v) {
         };
         __decorate([
             method,
+            __metadata("design:type", WareService)
+        ], WareComponent.prototype, "ctx", void 0);
+        __decorate([
+            method,
             __metadata("design:type", Function),
             __metadata("design:paramtypes", [AAA]),
             __metadata("design:returntype", void 0)
@@ -91,7 +95,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
         console.log("prop " + propertyKey);
         console.log("desc " + JSON.stringify(descriptor) + "\n\n");
     }
-    ;
     // 依赖注入器类
     class DependencyInjector {
         /**
@@ -147,4 +150,4 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     let index = DependencyInjector.getService(Index);
     index.run();
 });
-//# sourceMappingURL=1.js.map
+//# sourceMappingURL=test.js.map
