@@ -2,10 +2,10 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    'src/demo': './rule.js',
+    'src/demo': './rule-engine/rule.js',
   },
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'rule-engine/dist'),
     globalObject: 'wx',
     jsonpFunction: 'morModuleLoader'
   },

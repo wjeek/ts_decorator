@@ -1,6 +1,6 @@
 (wx["morModuleLoader"] = wx["morModuleLoader"] || []).push([[1],{
 
-/***/ "./rule.js":
+/***/ "./rule-engine/rule.js":
 /***/ (function(module, exports, __webpack_require__) {
 
 var RuleEngine = __webpack_require__("./node_modules/_@alife_alsc-rule-engine@1.0.9@@alife/alsc-rule-engine/es/index.js")["default"];
@@ -63,4 +63,4 @@ engine.addRule(ruleA).addRule(ruleB).addFact({
 
 /***/ })
 
-},[["./rule.js",0,2]]]);
+},[["./rule-engine/rule.js",0,2]]]);
