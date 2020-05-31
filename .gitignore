@@ -1,0 +1,10 @@
+node_modules/
+packages/*/lib
+packages/*/miniprogram_dist
+packages/mor-example/_*
+packages/mor-example/dist
+lerna-debug.log
+yarn-error.log
+.tea
+.miniapptool_dev_lock
+.idea
